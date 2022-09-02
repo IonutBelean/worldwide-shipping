@@ -8,11 +8,13 @@ const Header = () => {
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav d-flex justify-content-center">
-          <Nav className={`${HeaderCSS.nav} d-flex justify-content-around`}>
+          <Nav className={`${HeaderCSS.nav} d-flex justify-content-center`}>
             <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>
-            <Nav.Link href="#">Dress ideas and prices</Nav.Link>
+            <Nav.Link className={`${HeaderCSS.items}`} href="#">
+              Dress ideas and prices
+            </Nav.Link>
             <Nav.Link href="#">Our Brides</Nav.Link>
             <Nav.Link href="#">Customize your wedding dress</Nav.Link>
             <Nav.Link href="#">How it works</Nav.Link>

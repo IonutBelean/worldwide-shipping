@@ -5,9 +5,9 @@ import HomeCSS from "./Home.module.css";
 const Home = () => {
   return (
     <Layout>
-      <Container fluid className={`${HomeCSS} my-3`}>
-        <Card className="bg-dark text-white">
-          <Card.Img className={`${HomeCSS.image} card-img-right`} />
+      <Container className={`${HomeCSS.container} p-0 border-0`}>
+        <Card className="bg-dark text-white border-light">
+          <Card.Img className={`${HomeCSS.image} `} />
           <Card.ImgOverlay
             className={`${HomeCSS.content} d-flex flex-column justify-content-around align-items-start`}
           >
