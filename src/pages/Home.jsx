@@ -5,7 +5,7 @@ import HomeCSS from "./Home.module.css";
 const Home = () => {
   return (
     <Layout>
-      <Container className={`${HomeCSS.container} p-0 border-0`}>
+      <Container className={`${HomeCSS.container} p-0`}>
         <Card className="bg-dark text-white border-light">
           <Card.Img className={`${HomeCSS.image} `} />
           <Card.ImgOverlay

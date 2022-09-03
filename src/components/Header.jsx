@@ -4,26 +4,36 @@ import HeaderCSS from "./Header.module.css";
 
 const Header = () => {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
+    <Container className={`${HeaderCSS.nav} d-flex justify-content-center`}>
+      <Navbar expand="lg">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav d-flex justify-content-center">
-          <Nav className={`${HeaderCSS.nav} d-flex justify-content-center`}>
-            <Nav.Link as={Link} to="/">
+          <Nav className={`d-flex justify-content-center`}>
+            <Nav.Link className={`${HeaderCSS.items}`} as={Link} to="/">
               Home
             </Nav.Link>
             <Nav.Link className={`${HeaderCSS.items}`} href="#">
               Dress ideas and prices
             </Nav.Link>
-            <Nav.Link href="#">Our Brides</Nav.Link>
-            <Nav.Link href="#">Customize your wedding dress</Nav.Link>
-            <Nav.Link href="#">How it works</Nav.Link>
-            <Nav.Link href="#">Our fabrics</Nav.Link>
-            <Nav.Link href="#">Contact</Nav.Link>
+            <Nav.Link className={`${HeaderCSS.items}`} href="#">
+              Our Brides
+            </Nav.Link>
+            <Nav.Link className={`${HeaderCSS.items}`} href="#">
+              Customize your wedding dress
+            </Nav.Link>
+            <Nav.Link className={`${HeaderCSS.items}`} href="#">
+              How it works
+            </Nav.Link>
+            <Nav.Link className={`${HeaderCSS.items}`} href="#">
+              Our fabrics
+            </Nav.Link>
+            <Nav.Link className={`${HeaderCSS.items}`} href="#">
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
-    </Navbar>
+      </Navbar>
+    </Container>
   );
 };
 

@@ -1,7 +1,5 @@
-/* .container {
-  margin: 0;
-  padding: 0;
-} */
+.container {
+}
 .content {
   width: 50%;
   text-align: left;
@@ -21,8 +19,8 @@
   /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   height: 500px;
   color: white;
-  border: none;
   width: 100%;
 }
