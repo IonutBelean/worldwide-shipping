@@ -6,5 +6,5 @@
 .items {
   color: black !important;
   margin-right: 5px;
-  font-family: Saol Display Regular;
+  font-family: Saol Display Regular !important;
 }

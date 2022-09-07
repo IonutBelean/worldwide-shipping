@@ -1,8 +1,9 @@
 @import url(//db.onlinewebfonts.com/c/4c4c08af466e9ad071b6d69cf44093df?family=Saol+Display+Regular);
+
 .heading {
   padding: 40px 0;
   font-size: 40px;
-  font-family: Saol Display Regular;
+  font-family: Saol Display Regular !important;
 }
 
 .container {
@@ -18,12 +19,12 @@
 .card_title {
   font-size: 40px !important;
   margin-top: 100px !important;
-  font-family: Saol Display Regular;
+  font-family: Saol Display Regular !important;
 }
 
 .card_text {
   font-size: 20px !important;
-  font-family: Saol Display Regular;
+  font-family: Saol Display Regular !important;
   font-style: italic;
 }
 
