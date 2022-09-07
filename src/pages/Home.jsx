@@ -12,7 +12,7 @@ const Home = () => {
         <Card className="bg-dark text-white border-light">
           <Card.Img className={`${HomeCSS.image} `} />
           <Card.ImgOverlay
-            className={`${HomeCSS.content} d-flex flex-column text-center`}
+            className={`${HomeCSS.content} d-flex flex-column text-center justify-content-center align-items-center`}
           >
             <Card.Title className={`${HomeCSS.card_title} text-center `}>
               We'd love to help design your dream dress!
