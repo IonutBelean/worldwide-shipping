@@ -1,5 +1,5 @@
 import { Container, Navbar } from "react-bootstrap";
-import Logopic from "../pics/Atelier.png";
+import Logopic from "../pics/Logo/Logo.png";
 const Logo = () => {
   return (
     <div>
@@ -8,7 +8,7 @@ const Logo = () => {
           <img
             alt=""
             src={Logopic}
-            width="200"
+            width="250"
             height="200"
             className={` d-inline-block align-top me-3`}
           />

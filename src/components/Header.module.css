@@ -1,8 +1,10 @@
+@import url(//db.onlinewebfonts.com/c/4c4c08af466e9ad071b6d69cf44093df?family=Saol+Display+Regular);
+
 .nav {
   background-color: rgb(249, 186, 196);
 }
 .items {
   color: black !important;
-  font-weight: 500 !important;
   margin-right: 5px;
+  font-family: Saol Display Regular;
 }

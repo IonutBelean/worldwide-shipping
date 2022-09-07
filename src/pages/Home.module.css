@@ -1,9 +1,38 @@
+@import url(//db.onlinewebfonts.com/c/4c4c08af466e9ad071b6d69cf44093df?family=Saol+Display+Regular);
+.heading {
+  padding: 40px 0;
+  font-size: 40px;
+  font-family: Saol Display Regular;
+}
+
 .container {
 }
+
 .content {
   width: 50%;
   text-align: left;
   color: black;
+  margin-bottom: 10px;
+}
+
+.card_title {
+  font-size: 40px !important;
+  margin-top: 100px !important;
+  font-family: Saol Display Regular;
+}
+
+.card_text {
+  font-size: 20px !important;
+  font-family: Saol Display Regular;
+  font-style: italic;
+}
+
+.buttons {
+  width: 150px;
+  margin: 10px auto;
+  background-color: rgb(249, 186, 196) !important;
+  border: none !important;
+  color: black !important;
 }
 
 .image {
@@ -31,5 +60,6 @@
 
 .carousel {
   height: 500px;
+  width: auto;
   object-fit: contain;
 }

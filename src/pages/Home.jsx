@@ -5,18 +5,23 @@ import HomeCSS from "./Home.module.css";
 const Home = () => {
   return (
     <Layout>
+      <h1 className={`${HomeCSS.heading}`}>
+        Online custom wedding and evening dresses
+      </h1>
       <Container className={`${HomeCSS.container} p-0`}>
         <Card className="bg-dark text-white border-light">
           <Card.Img className={`${HomeCSS.image} `} />
           <Card.ImgOverlay
-            className={`${HomeCSS.content} d-flex flex-column justify-content-around align-items-start`}
+            className={`${HomeCSS.content} d-flex flex-column text-center`}
           >
-            <Card.Title>We'd love to help design your dream dress!</Card.Title>
-            <Card.Text>
+            <Card.Title className={`${HomeCSS.card_title} text-center `}>
+              We'd love to help design your dream dress!
+            </Card.Title>
+            <Card.Text className={`${HomeCSS.card_text} `}>
               You can get inspired from our designs or upload your photos.
             </Card.Text>
-            <Button>Upload Photos</Button>
-            <Button>See Designs</Button>
+            <Button className={`${HomeCSS.buttons}`}>Upload Photos</Button>
+            <Button className={`${HomeCSS.buttons}`}>See Designs</Button>
           </Card.ImgOverlay>
         </Card>
       </Container>
