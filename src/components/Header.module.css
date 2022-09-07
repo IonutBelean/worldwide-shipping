@@ -1,4 +1,7 @@
-@import url(//db.onlinewebfonts.com/c/4c4c08af466e9ad071b6d69cf44093df?family=Saol+Display+Regular);
+@font-face {
+  font-family: Saol;
+  src: url(../fonts/SaolDisplay-Regular.ttf);
+}
 
 .nav {
   background-color: rgb(249, 186, 196);
@@ -6,5 +9,5 @@
 .items {
   color: black !important;
   margin-right: 5px;
-  font-family: "Saol Display Regular";
+  font-family: Saol;
 }

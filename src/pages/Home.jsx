@@ -12,7 +12,7 @@ const Home = () => {
         <Card className="bg-dark text-white border-light">
           <Card.Img className={`${HomeCSS.image} `} />
           <Card.ImgOverlay
-            className={`${HomeCSS.content} d-flex flex-column text-center justify-content-center align-items-center`}
+            className={`${HomeCSS.content} d-flex flex-column text-center justify-content-evenly align-items-centern`}
           >
             <Card.Title className={`${HomeCSS.card_title} text-center `}>
               We'd love to help design your dream dress!
@@ -20,7 +20,7 @@ const Home = () => {
             <Card.Text className={`${HomeCSS.card_text} `}>
               You can get inspired from our designs or upload your photos.
             </Card.Text>
-            <Button className={`${HomeCSS.buttons}`}>Upload Photos</Button>
+            <Button className={`${HomeCSS.buttons} `}>Upload Photos</Button>
             <Button className={`${HomeCSS.buttons}`}>See Designs</Button>
           </Card.ImgOverlay>
         </Card>
